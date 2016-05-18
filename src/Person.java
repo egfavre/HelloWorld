@@ -2,7 +2,7 @@
  * Created by user on 5/16/16.
  */
 public class Person {
-    static int familySize = 10;
+    static final int familySize = 10;
     String name;
     int age;
     boolean isAlive;
@@ -10,6 +10,9 @@ public class Person {
 
     Person[] family = new Person[familySize];
 
+    public Person(){
+
+    }
     public Person(String name, int age, boolean isAlive){
         this.name = name;
         this.age = age;
