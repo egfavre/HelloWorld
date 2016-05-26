@@ -5,7 +5,7 @@ public class Message {
     Person author;
     String subject;
     String body;
-    String destination;
+    static String destination;
     int time;
 
     //constructor
