@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * Created by user on 5/16/16.
  */
-public class Person {
+public class Person implements Comparable{
     static final int familySize = 10;
     String name;
     int age;
@@ -68,6 +68,17 @@ public class Person {
                 ", family=" + Arrays.toString(family) +
                 '}';
     }
+
+    //public int compareTo(Object o) {}
+
+    @Override
+    public int compareTo(Object o) {
+        //requires casting: (type) variable
+        Person otherPerson = (Person) o;
+        return this.name.compareTo(otherPerson.name);
+    }
+
+
 
     /*  public boolean isValidName(String newName){
         return newName.contains(" ");
