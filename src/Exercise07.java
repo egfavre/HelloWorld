@@ -5,22 +5,15 @@ import com.sun.xml.internal.fastinfoset.util.CharArray;
  */
 public class Exercise07 {
     public static void main(String[] args) {
-        System.out.println(isPalindrome("racecar"));
-        System.out.println(isPalindrome("hello"));
+//        System.out.println(isPalindrome("racecar"));
+//        System.out.println(isPalindrome("hello"));
 
     }
 
-    public static boolean isPalindrome(String input){
-
-        char[] ca = input.toCharArray();
-        char
-        for (char c:ca) {
-
-        }
 
 
 
-    }
+
 
     //palindrome dates- SPARC interview
     /*
